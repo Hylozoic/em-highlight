@@ -10,7 +10,6 @@
     "mocha": "1.7.x"
   },
   "dependencies": {
-    "lodash": "^2.4.1",
     "sbd": "1.0.x"
   },
   "repository": {
