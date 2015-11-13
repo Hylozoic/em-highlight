@@ -4,6 +4,8 @@ EM Highlight
 Looks for given words or expressions in a text and highlights them with
 `<em class='highlight'> TERM </em>`
 
+This fork of [Tessmore/em-highlight](https://github.com/Tessmore/em-highlight) has been modified not to depend on lodash. It is being used in a browserify bundle in a front-end environment where lodash is a global (it's loaded via a separate script tag), so we want to avoid increasing the bundle size with an extra copy of lodash.
+
 # Usage
 
 ```javascript
